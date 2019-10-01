@@ -1,6 +1,11 @@
 # Documentation
 
-## Hamster Research
+## Process
+
+
+## Sources
+
+### Hamster Research
 
 [Hamster Facts: Diet, Habits & Types of Hamsters - LiveScience.com](https://www.livescience.com/27169-hamsters.html)
 
