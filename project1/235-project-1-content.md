@@ -63,7 +63,7 @@ The player will face off enemies in different arenas filled with surfaces all ar
 The player will face off different enemies. Small ones like weasels and feral cats will be fast but have less health and will require lower minimum momentum to actually damage them. Bigger enemies such as foxes, jackals, and snakes will have tougher skin and require the player to build up a certain amount of momentum to even be able to damage them. Bouncing towards them will less than the required speed will cause the player to just bounce off of them harmlessly and fall as easy prey to a claw swipe attack or a bite. Snakes will be especially tough as they will require the player to hit them in the head to damage them, making them a very tough skinned and small target.
 
 ##### Health and Enemy Attacks
-The player will have a health bar attached to the condition of the rubber hamster ball. Having enough damage dealth to the ball will break it and Rico will fall easy prey to the animals he is facing. Dying will result in a **Game Over** and requires the player to start the level over again. Enemies can deal damage to Rico in several different ways. For example:
+The player will have a health bar attached to the condition of the rubber hamster ball. Having enough damage dealt to the ball will break it and Rico will fall easy prey to the animals he is facing. Dying will result in a **Game Over** and requires the player to start the level over again. Enemies can deal damage to Rico in several different ways. For example:
 - Swiping their claws in front of them. 
 - Performing a lunge attack.
 - Biting in front of them. The player will have to make sure to keep 
@@ -82,7 +82,7 @@ Eagles and owls planned as possible predators for the player to face off. They w
 
 **Right Mouse Click (Momentum Cancel)** - If pressed in the middle of momentum charge up, cancels all elastic energy and the hamster does not bounce off.
 
-**Spacebar** - Ccan be used to the same effect as the **Left Mouse Button**, it is an alternative key.
+**Spacebar** - Can be used to the same effect as the **Left Mouse Button**, it is an alternative key.
 
 **P** - Pause and display the Pause Menu to Continue, tweak the Options, or quit to the Main Menu.
 
