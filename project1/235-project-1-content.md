@@ -66,7 +66,8 @@ The player will face off different enemies. Small ones like weasels and feral ca
 The player will have a health bar attached to the condition of the rubber hamster ball. Having enough damage dealt to the ball will break it and Rico will fall easy prey to the animals he is facing. Dying will result in a **Game Over** and requires the player to start the level over again. Enemies can deal damage to Rico in several different ways. For example:
 - Swiping their claws in front of them. 
 - Performing a lunge attack.
-- Biting in front of them. The player will have to make sure to keep 
+- Biting in front of them.
+The player will have to make sure to keep moving constantly to avoid these attacks. 
 
 **Birds of prey planned as a stretch goal:**
 
