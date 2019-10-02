@@ -67,6 +67,7 @@ The player will have a health bar attached to the condition of the rubber hamste
 - Swiping their claws in front of them. 
 - Performing a lunge attack.
 - Biting in front of them.
+
 The player will have to make sure to keep moving constantly to avoid these attacks. 
 
 **Birds of prey planned as a stretch goal:**
