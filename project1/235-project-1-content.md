@@ -117,6 +117,7 @@ At the beginning of the game, the player will be taken to a flashback into Rico'
 The difficulty curve of the game will be found in the unconventional and hard-to-master combat system. Attacking is attached to the movement of the player, so they will have to get comfortable building up high speeds to deal massive damage to their foes. Different spikes in the curve will also be encountered when the player meets a new enemy type and they have to learn their movement and attack patterns, as well as the specific way to defeat that enemy type.
 
 ### Screenshots
+![](images/handDrawnMockUp.jpg)
 
 ### Developer Info
 | Info   |                                            |
