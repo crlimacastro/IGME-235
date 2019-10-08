@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+#logo {
+    width: 5rem;
+    float: left;
+    margin: 1rem;
+}
+
+/*     headings     */
+.headingBackground {
+    background-color: #66D0F9;
+}
+
+h1, h2, h3, h4, h5 {
+    width: 60vw;
+    margin: 1rem auto;
+    font-family: 'Luckiest Guy', cursive;
+    padding-left: 2rem;
+    
+}
+
+h1 {
+    width: auto;
+    margin: 0rem 1rem;
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+section.content {
+    position: relative;
+}
+
+input.hide {
+    width: 100vw;
+    height: 2.5rem;
+    position: absolute;
+    top: -0.24rem;
+    opacity: 0;
+}
+
+input.hide:hover {
+    cursor: pointer;
+}
+
+input.hide:checked  ~ .collapsable {
+    display: none;
+}
+
+input.hide:hover ~ .headingBackground {
+    background-color: #16a2d9;
+} 
+
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: #C9F5FF;
+}
+
+h5 {
+    background-color: white;
+    font-size: 1.25rem;
+}
+/* **************** */
+
+/* global navigation bar */
+
+#globalNav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+#globalNav ul a, #backToTopButton {
+    display: block;
+    background-color: #C9F5FF;
+    color: black;
+    font-weight: bold;
+    padding: 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.5s linear;
+    transition: transform 0.1s ease-in;
+    border-radius: 2rem;
+    margin: 1rem;
+    width: 10rem;
+    text-align: center;
+}
+
+#globalNav ul a:focus, #backToTopButton:focus {
+    background-color: #16a2d9;
+    transform: scale(1.1);
+}
+
+#globalNav ul a:hover, #backToTopButton:hover {
+    background-color: #16a2d9;
+    transform: scale(1.1);
+}
+
+#globalNav ul a:active, #backToTopButton:active {
+    transition: none;
+    transform: scale(1);
+    background-color: #0091c9;
+}
+
+#backToTopButton {
+    left: 90vw;
+    top: 90vh;
+    position: sticky;
+    box-shadow: 5px 5px 5px grey;
+    z-index: 9999;
+}
+
+
+#currentPage {
+    display: block;
+    background-color: lightgrey;
+    color: black;
+    font-weight: bold;
+    padding: 1.5rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    margin: 1rem;
+    width: 10rem;
+    text-align: center;
+}
+
+/* ******************************** */
+
+#localNav {
+    width: fit-content;
+    margin: auto;
+}
+
+#localNav>ul {
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 2rem;
+    margin-left: 4rem;
+}
+
+#localNav>ul li {
+    margin: 1rem;
+}
+
+#localNav ul ul {
+    padding: 0;
+    padding-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #66D0F9;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:focus {
+    color: #16a2d9;
+}
+
+a:hover {
+    color: #16a2d9;
+}
+
+a:active {
+    color: black;
+}
+
+p {
+    width: 60vw;
+    margin: 1rem auto;
+    line-height: 2rem;
+    
+}
+
+main ol {
+    line-height: 2rem;
+    width: 60vw;
+    margin: 1rem auto;
+}
+
+#screenshotGallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 2rem auto;
+    border: 5px solid #66D0F9;
+}
+
+#screenshotGallery img {
+    width: 15rem;
+    flex: 1 1 auto;
+}
+
+/*     definition lists     */
+dl {
+    width: 60vw;
+    margin: 1rem auto;
+    line-height: 2rem;
+}
+
+dl > *{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl.imgDL .imgDefinition {
+    display: grid;
+
+    grid-template-columns: 5rem 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "term definition"
+                         "img  definition";
+}
+
+dl.imgDL dt {
+    grid-area: term;
+}
+
+dl.imgDL dd {
+    grid-area: definition;
+}
+
+dl.imgDL img {
+    grid-area: img;
+}
+
+dl.controls {
+    display: grid;
+
+    grid-template-columns: 10rem 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "term definition";
+    border: 5px ridge #16a2d9;
+}
+
+dl.controls > * {
+    margin: 1px;
+    border: 2px outset;
+    border-bottom: 5px outset;
+    border-right: 5px outset;
+    padding: 1rem;
+}
+
+dl.controls dt {
+    background-color: #66D0F9;
+}
+
+dl.controls dd {
+    border: none;
+    background-color: #C9F5FF;
+}
+
+dl.devInfo{
+    display: grid;
+
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "term definition";
+
+    width: fit-content;
+}
+
+/* ************************* */
+
+/*          spans          */
+.name {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gameplayButton, .gameCondition, .stretchGoalDisclaimer {
+    font-weight: bold;
+}
+/* *********************** */
+
+#placeHolderText {
+    text-align: center;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-top: 20rem;
+}

@@ -1,0 +1,15 @@
+h4 {
+    text-align: left;
+    background-color: transparent;
+    padding: 0;
+}
+
+.date {
+    font-weight: bold;
+}
+
+ul {
+    line-height: 2rem;
+    width: 60vw;
+    margin: 1rem auto;
+}
