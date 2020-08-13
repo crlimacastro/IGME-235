@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="media/switchLogo.png">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <title>Amiibo Finder</title>
+</head>
+
+<body>
+    <header>
+        <h1><img src="media/switchLogo.png" alt="" id="logo">Amiibo Finder</h1>
+        <a href="../documentation/documentation.html" id="documentation">Documentation</a>
+
+        <div id="search-area">
+            <label for="search-bar">Search</label>
+            <input type="text" placeholder="Mario" id="search-bar">
+            <button id="go">GO</button>
+        </div>
+
+        <div id="search-parameters">
+            <div class="parameter">
+                <label for="game-series">Game Series</label>
+                <select name="game-series" id="game-series">
+                    <option value="any">Any</option>
+                </select>
+            </div>
+            <div class="parameter">
+                <label for="amiibo-series">Amiibo Series</label>
+                <select name="amiibo-series" id="amiibo-series">
+                    <option value="any">Any</option>
+                </select>
+            </div>
+            <div class="parameter">
+                <label for="type">Amiibo Type</label>
+                <select name="type" id="type">
+                    <option value="any">Any</option>
+                </select>
+            </div>
+        </div>
+        <div id="special-searches">
+            <button id="random-amiibo">Random Amiibo</button>
+            <button id="show-all">Show All</button>
+            <button id="newest-releases">Newest Releases</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="content">
+            <p id="showing-results"></p>
+            <div id="results-gallery">
+            </div>
+            <div id="amiibo-info"></div>
+        </div>
+
+        <div id="bottom-image">
+            <img src="media/amiiboBackground.jpg" alt="" id="placeholder-background">
+        </div>
+
+    </main>
+</body>
+
+</html>
